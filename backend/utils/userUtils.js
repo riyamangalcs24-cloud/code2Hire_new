@@ -1,5 +1,5 @@
 const User = require('../user');
-const { buildProgressPayload } = require('./progressUtils');
+const { buildProgressPayload } = require('./progressUtils.js');
 
 const slugifyName = (value) => value
   .toLowerCase()
