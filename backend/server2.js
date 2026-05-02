@@ -88,7 +88,7 @@ app.get('/', (req, res) => {
 const authRoutes = require('./routes/authcontroller');
 const analyticsRoutes = require('./routes/analytics');
 const questionRoutes = require('./routes/questioncontroller');
-const domainRoutes = require('./routes/domains');
+const domainRoutes = require('./routes/domain');
 const roadmapRoutes = require('./routes/roadmap');
 
 app.use('/api/auth', authRoutes);
